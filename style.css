@@ -22,3 +22,47 @@
   font-family: Gravity;
   color: black;
 }
+
+footer {
+  background-color: #282828;
+  width: 100%;
+  margin-top: 5%;
+  color: white;
+  font-family: Gravity;
+  text-align: center;
+  padding: 5% 0 5%;
+}
+
+.fheader {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.fcontainer {
+  justify-content: center;
+  display: flex;
+}
+
+.ffooter {
+  margin-top: 3rem;
+}

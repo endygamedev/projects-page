@@ -74,6 +74,17 @@
       </div>
     </div>
   </div>
+  <footer>
+    <div class="fheader">Stay Connected</div>
+    <div class="fcontainer">
+      <ul>
+        <li><a href="https://t.me/endygamedev" target="blank_"><img src="/assets/icons/telegram.png" height="30px"></a></li>
+        <li><a href="https://open.spotify.com/user/216ndgqqr2hlj3be4gf3rjzoa?si=lpxoOBCaQP27CwF-ThjNLg&utm_source=copy-link" target="blank_"><img src="/assets/icons/spotify.png" height="30px"></a></li>
+        <li><a href="https://www.instagram.com/endygamedev/" target="blank_"><img src="/assets/icons/instagram.png" height="30px"></a></li>
+      </ul>
+    </div>
+    <div class="ffooter">ebronnikov.xyz</div>
+  </footer>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
