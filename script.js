@@ -8,7 +8,8 @@
       //nama depan = 0
       //nama belakang = 1
       //tanggal terdaftar =2
-      var evalDate= parseDateValue(aData[2]);
+      var evalDate= parseDateValueEval(aData[3]);
+      console.log(evalDate)
         if ( ( isNaN( dateStart ) && isNaN( dateEnd ) ) ||
              ( isNaN( dateStart ) && evalDate <= dateEnd ) ||
              ( dateStart <= evalDate && isNaN( dateEnd ) ) ||
@@ -25,6 +26,12 @@
       var parsedDate= new Date(dateArray[2], parseInt(dateArray[1])-1, dateArray[0]);  // -1 because months are from 0 to 11   
       return parsedDate;
   }    
+
+  function parseDateValueEval(rawDate) {
+    var dateArray= rawDate.split("-");
+    var parsedDate= new Date(dateArray[0], parseInt(dateArray[1])-1, dateArray[2]);  // -1 because months are from 0 to 11   
+    return parsedDate;
+  }
 
   $( document ).ready(function() {
   //konfigurasi DataTable pada tabel dengan id example dan menambahkan  div class dateseacrhbox dengan dom untuk meletakkan inputan daterangepicker
